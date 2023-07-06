@@ -11,8 +11,12 @@
     
     
 }
+.site-logo{
+    width: 120px;
+    padding: 5px;
+}
 .logo{
-    width: 100px;
+    width: 100x;
     padding:5px
 }
 .item{
@@ -21,7 +25,7 @@
     font-size: 18px;
     text-decoration: none;
     color: white;
-    transition: 0.8s;
+    transition: 0.4s ease-in-out;
     
 
 }
@@ -30,6 +34,7 @@
     border: none;
     border-radius: 4px;
     padding: 4px;
+    
     
 }
 .menus ul{
@@ -50,11 +55,12 @@
     align-items: center;
 
 }
-.banner-text h1{
+.banner-text {
 font-size: 56px;
 font-weight: bold;
 justify-content: center;
 align-items: center;
+
 
 }
 .banner-text p{
@@ -69,7 +75,7 @@ align-items: center;
     border: none;
     padding: 13px 20px;
     color: azure;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 20px;
     transition: 0.7s;
     cursor:pointer;
@@ -78,7 +84,7 @@ align-items: center;
     
 }
 .btn:hover{
-    background-color: azure;
+    background-color: rgb(98, 248, 248);
     color: #000;
     
 }
@@ -104,4 +110,44 @@ text-align: center;
     font-size: 18px;
     margin-top: 15px;
 } 
+.logo{
+    width: 70px;
+}
+.service-box{
+    width: 200px;
+    height: 280px;
+    margin-top: 20px;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
 
+}
+.service-title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service-container{
+    background-image: url(images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #424141);
+    color: azure;
+    padding: 50px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-2{
+    background-color:#424141;
+    border: none;
+    padding: 10px 15px;
+    color: azure;
+    font-size: 13px;
+    margin-top: 20px;
+    transition: 0.7s;
+    cursor:pointer;
+    text-decoration: none;
+    outline: none;
+    border-radius: 4px;
+}
